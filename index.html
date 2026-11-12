@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ryushepwn</title>
+<meta name="description" content="ryushepwn — security research, recon tooling, and PoCs.">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="ryushepwn">
+<meta property="og:description" content="Security research, recon tooling, and PoCs.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ryushepwn.github.io/">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site">
+  <a class="brand" href="/" aria-label="ryushepwn home">
+    <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+      <rect x="1.5" y="1.5" width="29" height="29" rx="7" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="M10 22V10h5.5a4 4 0 0 1 0 8H10" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M16.5 18 22 22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+    </svg>
+    <span>ryushepwn</span>
+  </a>
+  <nav aria-label="Main">
+    <a href="#about">about</a>
+    <a href="#work">work</a>
+    <a href="#contact">contact</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <p class="prompt"><span aria-hidden="true">$</span> whoami</p>
+    <h1>ryushepwn</h1>
+    <p class="tagline">
+      Security research, recon tooling, and proof-of-concepts.
+      I break web apps on purpose, then build the tool that finds the same bug
+      without me.
+    </p>
+    <div class="actions">
+      <a class="btn primary" href="https://github.com/ryushepwn">GitHub</a>
+      <a class="btn" href="#work">Projects</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2><span class="sec">01</span> about</h2>
+    <p>
+      I do offensive security work: web and API testing, recon automation, and
+      exploit development. Most of it happens in bug bounty programs, where the
+      interesting part is rarely the payload — it's mapping the surface and
+      understanding what the application quietly trusts.
+    </p>
+    <p>
+      The rest of the time I'm writing tooling so the next hunt starts further
+      ahead: recon pipelines, request replay, and small agents that handle the
+      repetitive parts. Everything here is built and maintained with heavy
+      automation; the notes and PoCs are checked before they go out.
+    </p>
+  </section>
+
+  <section id="work">
+    <h2><span class="sec">02</span> work</h2>
+    <ul class="cards">
+      <li>
+        <a href="https://github.com/ryushepwn/recon-ry">
+          <h3>recon-ry <span class="tag">recon</span></h3>
+          <p>Recon pipeline for mapping a target's surface: hosts, URLs, and
+          the parameters worth fuzzing.</p>
+          <span class="more">github.com/ryushepwn/recon-ry <span aria-hidden="true">→</span></span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/ryushepwn/dotfiles">
+          <h3>dotfiles <span class="tag">config</span></h3>
+          <p>Stow-managed configuration for the terminal, editor, and the
+          proxy-heavy workflows this work runs on.</p>
+          <span class="more">github.com/ryushepwn/dotfiles <span aria-hidden="true">→</span></span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2><span class="sec">03</span> contact</h2>
+    <p>
+      Best reached on GitHub. Open an issue, or send a message on
+      <a href="https://github.com/ryushepwn">@ryushepwn</a>.
+    </p>
+  </section>
+</main>
+
+<footer class="site">
+  <p>© 2026 ryushepwn</p>
+  <p class="fine">Static site. Plain HTML and CSS. Hosted on GitHub Pages.</p>
+</footer>
+
+</body>
+</html>
